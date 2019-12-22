@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sgl.smartpra.app.SmartPraTestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.707 s - in com.sgl.smartpra.app.SmartPraTestApplicationTests
