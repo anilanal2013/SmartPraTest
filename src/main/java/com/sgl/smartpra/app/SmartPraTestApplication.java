@@ -18,6 +18,6 @@ public class SmartPraTestApplication {
 
 	@Bean(initMethod = "start", destroyMethod = "stop")
 	public Server h2WebConsoleServer() throws SQLException {
-		return Server.createWebServer("-web", "-webAllowOthers", "-webDaemon","tcpAllowOthers","pgAllowOthers", "-webPort", "8080");
+		return Server.createWebServer("-web", "-webAllowOthers");
 	}
 }
