@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hostaliases-pod
+spec:
+  restartPolicy: Never
+  hostAliases:
+  - ip: "10.245.240.28"
+    hostnames: 
+      - "sinazedev17"
+  containers:
+  - name: smartpra-fin-service-deployment
+    image: smartpra.azurecr.io/smartpra-fin-service:v1.0.2
+    command:
+    - cat
+    args:
+    - "/etc/hosts"
