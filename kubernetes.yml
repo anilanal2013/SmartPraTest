@@ -14,7 +14,7 @@ spec:
         app: system
     spec:
       containers:
-      - name: smartpra-fin-service-deployment
+      - name: smartpra-fin-service-container
         image: smartpra.azurecr.io/smartpra-fin-service:v1.0.2
         ports:
         - containerPort: 8082
