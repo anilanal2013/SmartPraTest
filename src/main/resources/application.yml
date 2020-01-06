@@ -6,7 +6,7 @@ spring:
   application:
     name: financial-service
   datasource:
-    url: jdbc:sqlserver://SINAZEDEV17;databaseName=SmartPRA_DEV;instanceName=SmartPRA_DEV;portNumber=1433;user=devsmartpra;password=Rtsneftimp@423!#
+    url: jdbc:sqlserver://10.245.240.28;databaseName=SmartPRA_DEV;instanceName=SmartPRA_DEV;portNumber=1433;user=devsmartpra;password=Rtsneftimp@423!#
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver   
   jpa:
     show-sql: false
