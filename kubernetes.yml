@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: system-deployment
+  name: smartpra-fin-service-deployment
   labels:
     app: system
 spec:
@@ -14,10 +14,10 @@ spec:
         app: system
     spec:
       containers:
-      - name: system-container
-        image: smartpra.azurecr.io/smartpra-master-app:v1
+      - name: smartpra-fin-service-deployment
+        image: smartpra.azurecr.io/smartpra-fin-service:v1.0.2
         ports:
-        - containerPort: 8096
+        - containerPort: 8082
       imagePullSecrets:
       - name: smartprasecret
       
